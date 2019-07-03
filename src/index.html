@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <meta charset="utf-8">
+    <title>Hotelbooking</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--CSS styles-->
+    <link rel="stylesheet" media="all" href="http://www.elathemes.com/themes/colina/css/bundle.min.css" />
+    <link rel="stylesheet" href="http://www.elathemes.com/themes/colina/js/bundle.min.js">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500&amp;subset=latin-ext" rel="stylesheet">
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+    <app-root></app-root>
+</body>
+
+</html>

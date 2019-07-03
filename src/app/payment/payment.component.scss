@@ -1,0 +1,127 @@
+/*Design of the checkout page: Start*/
+
+.first-content {
+    margin-top: 2px;
+}
+
+.btn-black {
+    background-color: black !important;
+    border-color: black !important;
+    ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.btn-black:hover {
+    background-color: #15c !important;
+    border-color: #15c !important;
+}
+
+
+/*Fieldset element*/
+
+fieldset.scheduler-border {
+    border-radius: 20px;
+    border: 1px solid black !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0 0 0 0 black;
+    box-shadow: 0 0 0 0 black;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    width: auto;
+    padding: 5px 5px;
+    margin-left: 50%;
+    border-bottom: none;
+    margin-bottom: 10;
+}
+
+.selectAdList {
+    padding: 0 15px;
+}
+
+
+/*Submit button*/
+
+.btn-classified {
+    background-color: #15c !important;
+    ;
+    border-color: #15c !important;
+    ;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.scheduler-border .col-sm-6 {
+    padding-right: 0;
+}
+
+
+/*Design of the checkout page: End*/
+
+//body {
+// padding: 40px;
+// position: absolute;
+// top: 34%;
+//left: 0;
+//bottom: 32%;
+//width: 100%;
+//height: 85%;
+//margin-top: -200px;
+//overflow: hidden;
+//background-image: url(C:\Users\CODETRIBE\Desktop\book\booking\hotelbooking\src\assets\home-header-hotel-ibiza.jpg)
+//}
+.glossy-button {
+    top: 80%;
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    background-color: black;
+    font-family: sans-serif;
+    color: black;
+    padding: 20px 40px;
+    text-shadow: 0 0 15px hsla(0, 0%, 100%, 1), /* bloom */
+    0 2px 4px hsla(0, 0%, 0%, 0.7);
+    /* drop shadow */
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+
+/* highlight */
+
+.glossy-button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 5px;
+    height: 30px;
+    border-radius: 15px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0));
+}
+
+.glossy-button:hover {
+    transform: scale(1.05);
+    box-shadow: inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+    inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+    /* multiple light sources yall */
+    -12px 12px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+    10px 25px 10px hsla(0, 0%, 0%, 0.2);
+    /* drop shadow 2 */
+}
+
+.form-horizontal {
+    color: black;
+    text-shadow: 3px 2px skyblue
+}
+
+.scheduler-borde {
+    color: white;
+}

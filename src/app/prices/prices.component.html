@@ -1,0 +1,140 @@
+<body>
+
+    <div class="container">
+        <h2><i>Thank you for choosing us as your number one holiday destination....</i></h2>
+        <p>
+            Welcome<b> {{Username}} {{Lastname}}</b>
+        </p>
+
+        <p>
+            you are booked from <b>{{checkin}}</b>
+        </p>
+
+        <p>
+            until <b> {{checkout}}</b>
+        </p>
+
+        <p>
+
+            you booked for <b> {{Adults}} </b>adults
+
+        </p>
+
+        <p>
+            and <b>{{Children}} </b> children
+        </p>
+
+        <p>
+            for<b>{{Rooms}} </b> rooms
+        </p>
+
+        <p>your total amount is<b>R 8000.00</b> from<b> {{checkin}} </b>to <b>{{checkout}}</b> </p>
+        <p>I hope you enjoy your stay with us...</p>
+
+        <button (click)="onPayment()">payments</button>
+    </div>
+
+
+    <section class="stretcher-wrapper" id="facilities">
+        <!-- === stretcher header === -->
+        <div class="section-header">
+            <div class="container">
+                <h2 class="title">Hotel Facilities</h2>
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <!-- === stretcher === -->
+
+        <ul class="stretcher">
+
+            <!-- === stretcher item === -->
+
+            <a href="/home/gallery">
+                <li class="stretcher-item" style="background-image:url(assets/white.jpg);">
+                    <!--logo-item-->
+                    <div class="stretcher-logo">
+                        <div class="text">
+                            <span class="text-intro h4">Rooms</span>
+                        </div>
+                    </div>
+                    <!--main text-->
+                    <figure>
+                        <h4>Rooms</h4>
+                    </figure>
+                </li>
+            </a>
+
+            <!-- === stretcher item === -->
+            <a href="/home/gym">
+                <li class="stretcher-item" style="background-image:url(assets/spa1.jpg);">
+                    <!--logo-item-->
+                    <div class="stretcher-logo">
+                        <div class="text">
+                            <span class="text-intro h4">Spa</span>
+                        </div>
+                    </div>
+                    <!--main text-->
+                    <figure>
+                        <h4>Spa</h4>
+                    </figure>
+                </li>
+            </a>
+
+
+            <!-- === stretcher item === -->
+            <a href="/home/spafacilities">
+                <li class="stretcher-item" style="background-image:url(assets/poold.jpg);">
+                    <!--logo-item-->
+                    <div class="stretcher-logo">
+                        <div class="text">
+                            <span class="text-intro h4">Pools</span>
+                        </div>
+                    </div>
+                    <!--main text-->
+                    <figure>
+                        <h4>Pools</h4>
+                    </figure>
+                </li>
+            </a>
+
+
+            <!-- === stretcher item === -->
+            <a href="/home/resturant">
+                <li class="stretcher-item" style="background-image:url(assets/rast.jpg);">
+                    <!--logo-item-->
+                    <div class="stretcher-logo">
+                        <div class="text">
+                            <span class="text-intro h4">Resturants</span>
+                        </div>
+                    </div>
+                    <!--main text-->
+                    <figure>
+                        <h4>Resturants</h4>
+                    </figure>
+                </li>
+            </a>
+
+
+            <!-- === stretcher item more === -->
+
+            <a href="/home/newgym">
+                <li class="stretcher-item" style="background-image:url(assets/gym.jpg);">
+                    <!--logo-item-->
+                    <div class="stretcher-logo">
+                        <div class="text">
+                            <span class="text-intro h4">GYM</span>
+                        </div>
+                    </div>
+                    <!--main text-->
+                    <figure>
+                        <h4>Gym</h4>
+                    </figure>
+                </li>
+            </a>
+
+        </ul>
+    </section>
+</body>
+<router-outlet></router-outlet>

@@ -1,0 +1,42 @@
+h2 {
+    align-content: center;
+}
+
+td:hover {
+    transform: scale(1.1);
+    cursor: zoom-in
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+.col-sm-3:hover {
+    transform: scale(1.1);
+    cursor: zoom-in
+}
+
+.itemactive {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    color: white;
+}
